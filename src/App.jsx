@@ -9,8 +9,8 @@ import SideMenu from './components/SideMenu';
 
 const GlobalStyle = createGlobalStyle`
   * {
-      box-sizing: border-box;
-    }
+    box-sizing: border-box;
+  }
   
   html, body {
     margin: 0;
