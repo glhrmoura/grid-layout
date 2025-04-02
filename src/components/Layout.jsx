@@ -20,11 +20,15 @@ const Container = styled.div`
   }
 `;
 
-const Area1 = styled.div`
+const Header = styled.div`
   grid-area: header;
 `;
 
-const Area2 = styled.div`
+const Content = styled.div`
+  grid-area: content;
+`;
+
+const SideMenu = styled.div`
   grid-area: sideMenu;
 
   @media (max-width: 768px) {
@@ -32,16 +36,12 @@ const Area2 = styled.div`
   }
 `;
 
-const Area3 = styled.div`
-  grid-area: content;
-`;
-
 const Layout = ({ header, sideMenu, content }) => {
   return (
     <Container>
-      <Area1>{header}</Area1>
-      <Area2>{sideMenu}</Area2>
-      <Area3>{content}</Area3>
+      <Header>{header}</Header>
+      <SideMenu>{sideMenu}</SideMenu>
+      <Content>{content}</Content>
     </Container>
   );
 };
