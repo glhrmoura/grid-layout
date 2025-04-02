@@ -7,7 +7,7 @@
 
 ## Grid Layout
 
-Este repositório contém um exemplo simples de como usar o CSS Grid para construir layouts responsivos e modernos. O objetivo é demonstrar como o CSS Grid pode ser utilizado para criar designs de página flexíveis e de fácil manutenção.
+This repository contains a simple example of how to use CSS Grid to build responsive and modern layouts. The goal is to demonstrate how CSS Grid can be utilized to create flexible and maintainable page designs.
 
 ### Demo
 
