@@ -8,6 +8,9 @@ import SideMenu from './components/SideMenu';
 const GlobalStyle = createGlobalStyle`
   * {
     box-sizing: border-box;
+    font-family: 'Figtree', sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
   }
   
   html, body {
