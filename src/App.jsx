@@ -8,10 +8,13 @@ import Content from './components/Content';
 import SideMenu from './components/SideMenu';
 
 const GlobalStyle = createGlobalStyle`
+  * {
+      box-sizing: border-box;
+    }
+  
   html, body {
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
     color: #FFFFFF;
   }
 
