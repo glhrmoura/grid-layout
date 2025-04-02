@@ -1,4 +1,3 @@
-import React from 'react';
 import styled from 'styled-components';
 
 const Container = styled.div`
@@ -36,7 +35,13 @@ const SideMenu = styled.div`
   }
 `;
 
-const Layout = ({ header, sideMenu, content }) => {
+interface LayoutProps {
+  header: React.ReactNode;
+  sideMenu: React.ReactNode;
+  content: React.ReactNode;
+}
+
+const Layout: React.FC<LayoutProps> = ({ header, sideMenu, content }) => {
   return (
     <Container>
       <Header>{header}</Header>

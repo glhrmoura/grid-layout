@@ -1,4 +1,3 @@
-import React from 'react';
 import styled from 'styled-components';
 
 const Container = styled.aside`
@@ -7,7 +6,7 @@ const Container = styled.aside`
   background-color: green;
 `;
 
-const SideMenu = () => {
+const SideMenu: React.FC = () => {
   return (
     <Container>
       <h1>SideMenu</h1>
