@@ -5,7 +5,7 @@ const Container = styled.aside`
   padding: 12px;
   font-size: 32px;
   font-weight: 700;
-  background-color: green;
+  background-color: #e1be49;
 `;
 
 const SideMenu: React.FC = () => {

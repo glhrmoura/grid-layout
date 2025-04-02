@@ -5,7 +5,7 @@ const Container = styled.div`
   padding: 12px;
   font-size: 32px;
   font-weight: 700;
-  background-color: red;
+  background-color: #4BB6AC;
 `;
 
 const Content: React.FC = () => {

@@ -5,7 +5,7 @@ const Container = styled.header`
   padding: 12px;
   font-size: 32px;
   font-weight: 700;
-  background-color: blue;
+  background-color: #EF5451;
 `;
 
 const Header: React.FC = () => {
